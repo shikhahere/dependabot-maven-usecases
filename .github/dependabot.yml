@@ -4,6 +4,9 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
-    # No `allow: dependency-type: all` here —
-    # this keeps VERSION updates limited to direct/explicit dependencies only.
+    groups:
+      # group everything together
+      maven-dependencies:
+        patterns:
+          - "*"
     open-pull-requests-limit: 10
