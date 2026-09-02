@@ -1,0 +1,9 @@
+version: 2
+updates:
+  - package-ecosystem: "maven"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    # No `allow: dependency-type: all` here —
+    # this keeps VERSION updates limited to direct/explicit dependencies only.
+    open-pull-requests-limit: 10
