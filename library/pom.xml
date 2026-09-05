@@ -13,9 +13,11 @@
 
   <dependencies>
     <dependency>
-    <groupId>dnsjava</groupId>
-    <artifactId>dnsjava</artifactId>
+      <groupId>org.littleshoot</groupId>
+      <artifactId>littleproxy</artifactId>
+      <version>1.1.2</version>
     </dependency>
+
     <dependency>
       <groupId>com.google.guava</groupId>
       <artifactId>guava</artifactId>
