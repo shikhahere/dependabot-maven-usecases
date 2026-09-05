@@ -13,6 +13,10 @@
 
   <dependencies>
     <dependency>
+    <groupId>dnsjava</groupId>
+    <artifactId>dnsjava</artifactId>
+    </dependency>
+    <dependency>
       <groupId>com.google.guava</groupId>
       <artifactId>guava</artifactId>
       <version>31.1-jre</version>
